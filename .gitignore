@@ -1,0 +1,43 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.apex_env/
+lib/
+bin/
+Include/
+Lib/
+Scripts/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment files
+*.env
+.env.*
+
+# YAML cache or temp files
+*.yaml~
+*.yml~
+
+# Logs
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Misc
+.mcp_server/
+workdir/

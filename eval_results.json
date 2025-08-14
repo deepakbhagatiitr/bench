@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-14T18:50:30.101813+00:00",
+    "model": "biggie",
+    "max_tokens": 4096,
+    "max_concurrency": 3,
+    "tasks": [
+      "log_debug"
+    ],
+    "runs_per_task": 10,
+    "total_evaluations": 10,
+    "evaluation_id": "97ca9622-7850-49b2-abae-923e4285a017"
+  },
+  "individual_results": [
+    {
+      "task": "log_debug",
+      "run": 4,
+      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
+      "duration": 89.4486231803894,
+      "success": true,
+      "error": null,
+      "transcript_file": "eval_transcripts/log_debug-run4.json",
+      "server_log_file": "eval_transcripts/server_logs/log_debug-run4-server.log"
+    },
+    {
+      "task": "log_debug",
+      "run": 6,
+      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
+      "duration": 98.29752087593079,
+      "success": true,
+      "error": null,
+      "transcript_file": "eval_transcripts/log_debug-run6.json",
+      "server_log_file": "eval_transcripts/server_logs/log_debug-run6-server.log"
+    },
+    {
+      "task": "log_debug",
+      "run": 8,
+      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
+      "duration": 99.17526078224182,
+      "success": true,
+      "error": null,
+      "transcript_file": "eval_transcripts/log_debug-run8.json",
+      "server_log_file": "eval_transcripts/server_logs/log_debug-run8-server.log"
+    },
+    {
+      "task": "log_debug",
+      "run": 3,
+      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
+      "duration": 90.7478928565979,
+      "success": true,
+      "error": null,
+      "transcript_file": "eval_transcripts/log_debug-run3.json",
+      "server_log_file": "eval_transcripts/server_logs/log_debug-run3-server.log"
+    },
+    {
+      "task": "log_debug",
+      "run": 10,
+      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
+      "duration": 102.81400394439697,
+      "success": true,
+      "error": null,
+      "transcript_file": "eval_transcripts/log_debug-run10.json",
+      "server_log_file": "eval_transcripts/server_logs/log_debug-run10-server.log"
+    },
+    {
+      "task": "log_debug",
+      "run": 5,
+      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
+      "duration": 106.03670692443848,
+      "success": true,
+      "error": null,
+      "transcript_file": "eval_transcripts/log_debug-run5.json",
+      "server_log_file": "eval_transcripts/server_logs/log_debug-run5-server.log"
+    },
+    {
+      "task": "log_debug",
+      "run": 1,
+      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
+      "duration": 75.07683420181274,
+      "success": true,
+      "error": null,
+      "transcript_file": "eval_transcripts/log_debug-run1.json",
+      "server_log_file": "eval_transcripts/server_logs/log_debug-run1-server.log"
+    },
+    {
+      "task": "log_debug",
+      "run": 7,
+      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
+      "duration": 92.66689085960388,
+      "success": true,
+      "error": null,
+      "transcript_file": "eval_transcripts/log_debug-run7.json",
+      "server_log_file": "eval_transcripts/server_logs/log_debug-run7-server.log"
+    },
+    {
+      "task": "log_debug",
+      "run": 9,
+      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
+      "duration": 100.11403179168701,
+      "success": true,
+      "error": null,
+      "transcript_file": "eval_transcripts/log_debug-run9.json",
+      "server_log_file": "eval_transcripts/server_logs/log_debug-run9-server.log"
+    },
+    {
+      "task": "log_debug",
+      "run": 2,
+      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
+      "duration": 94.27912306785583,
+      "success": true,
+      "error": null,
+      "transcript_file": "eval_transcripts/log_debug-run2.json",
+      "server_log_file": "eval_transcripts/server_logs/log_debug-run2-server.log"
+    }
+  ],
+  "aggregated_results": {
+    "log_debug": {
+      "task": "log_debug",
+      "mean_score": 1.0,
+      "std_dev": 0.0,
+      "success_rate": 1.0,
+      "total_runs": 10,
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  }
+}

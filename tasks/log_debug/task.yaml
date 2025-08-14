@@ -1,0 +1,25 @@
+prompt: |
+  You are given an application log file at /workdir/data/server.log.
+  Your tasks:
+  1. Count how many lines contain ERROR.
+  2. Extract the first (earliest) timestamp of an ERROR entry.
+  3. Find the most frequent log level in the file (INFO, WARNING, ERROR, DEBUG).
+  4. Count the number of distinct users (user_id) who triggered any WARNING.
+  
+  Write your answers to /workdir/solution.csv in the exact format:
+  question,answer
+  Q1,<number of ERROR entries>
+  Q2,<timestamp of first ERROR>
+  Q3,<most frequent log level>
+  Q4,<number of unique WARNING users>
+  
+  Notes:
+  - Timestamp format: YYYY-MM-DD HH:MM:SS
+  - The log file format is:
+    TIMESTAMP [LEVEL] user_id=<id> message=...
+  - No extra spaces, commas, or quotation marks in the output.
+
+metadata:
+  difficulty: medium
+  category: software-development
+  tags: [log-analysis, debugging, python]
