@@ -1,0 +1,54 @@
+id: blind-treasure-hunter-7x7
+name: Blind Treasure Hunter (7x7)
+version: 1.0.0
+category: systems
+tags:
+  - exploration
+  - memory
+  - mapping
+  - cli
+  - gridworld
+  - pathfinding
+difficulty: medium
+prompt: |
+  You are placed into a hidden 7x7 grid world with a randomly placed starting position (unknown to you).
+  Your goals:
+    1) Explore the ENTIRE world.
+    2) Produce a complete map at /workdir/map.txt with the following symbols:
+       - '#'  wall
+       - '.'  empty cell
+       - 'S'  your starting cell
+       - 'T'  treasure cells (there may be multiple)
+    3) The map must be EXACT. If any cell is wrong or any treasure is missing, you fail.
+
+  Interaction API (use the bash tool to run these commands):
+    - Initialize the environment (must be called once at the start):
+        python /workdir/env.py init
+    - Get your current absolute position (row, col; 0-indexed):
+        python /workdir/env.py pos
+    - Attempt to move one step (N|S|E|W). Returns success or wall-hit:
+        python /workdir/env.py move N
+    - Peek without moving: returns which adjacent directions are walls (N,S,E,W: true/false):
+        python /workdir/env.py look
+    - Scan current cell: returns {cell: "start|empty|treasure"}:
+        python /workdir/env.py scan
+    - Get grid dimensions:
+        python /workdir/env.py dims
+
+  Output:
+    - Write your final 7-line map (each line 7 chars) to: /workdir/map.txt
+
+  Notes / Constraints:
+    - No internet.
+    - Do not assume the maze layout or starting position—systematic exploration is required.
+    - Your map must include S (your random start) and all T cells.
+    - Stopping early (e.g., after finding a single treasure) will fail.
+    - All commands output parseable JSON for easy handling in scripts.
+
+  Finalize by ensuring /workdir/map.txt exactly matches the ground truth with your starting position marked as S.
+
+resources:
+  data_paths:
+    - /workdir
+entrypoint: bash
+max_runtime_seconds: 600

@@ -1,136 +1,136 @@
 {
   "metadata": {
-    "timestamp": "2025-08-14T18:50:30.101813+00:00",
+    "timestamp": "2025-08-23T20:50:11.761590+00:00",
     "model": "biggie",
     "max_tokens": 4096,
     "max_concurrency": 3,
     "tasks": [
-      "log_debug"
+      "blind-treasure-hunter-7x7"
     ],
     "runs_per_task": 10,
     "total_evaluations": 10,
-    "evaluation_id": "97ca9622-7850-49b2-abae-923e4285a017"
+    "evaluation_id": "f520f85d-2061-45a7-8cd2-52610177f7ad"
   },
   "individual_results": [
     {
-      "task": "log_debug",
+      "task": "blind-treasure-hunter-7x7",
       "run": 4,
-      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
-      "duration": 89.4486231803894,
+      "grade_result": "{\n  \"subscores\": {},\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"First mismatch at (row 1, col 1): expected 'S', got '.'\\nGround truth:\\n#######\\n#S..T.#\\n#.#.#.#\\n#...#.#\\n#T#...#\\n#..#..#\\n#######\\nCandidate map:\\n#######\\n#...T.#\\n#.#.#.#\\n#...#.#\\n#T#...#\\n#S.#..#\\n#######\"\n  }\n}",
+      "duration": 90.26816582679749,
       "success": true,
       "error": null,
-      "transcript_file": "eval_transcripts/log_debug-run4.json",
-      "server_log_file": "eval_transcripts/server_logs/log_debug-run4-server.log"
+      "transcript_file": "eval_transcripts/blind-treasure-hunter-7x7-run4.json",
+      "server_log_file": "eval_transcripts/server_logs/blind-treasure-hunter-7x7-run4-server.log"
     },
     {
-      "task": "log_debug",
+      "task": "blind-treasure-hunter-7x7",
       "run": 6,
-      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
-      "duration": 98.29752087593079,
+      "grade_result": "{\n  \"subscores\": {},\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"First mismatch at (row 4, col 4): expected '.', got '#'\\nGround truth:\\n#######\\n#S..T.#\\n#.#.#.#\\n#...#.#\\n#T#...#\\n#..#..#\\n#######\\nCandidate map:\\n#######\\n#S..T.#\\n#.#.#.#\\n#...#.#\\n#T#.###\\n#..####\\n#######\"\n  }\n}",
+      "duration": 140.67465710639954,
       "success": true,
       "error": null,
-      "transcript_file": "eval_transcripts/log_debug-run6.json",
-      "server_log_file": "eval_transcripts/server_logs/log_debug-run6-server.log"
+      "transcript_file": "eval_transcripts/blind-treasure-hunter-7x7-run6.json",
+      "server_log_file": "eval_transcripts/server_logs/blind-treasure-hunter-7x7-run6-server.log"
     },
     {
-      "task": "log_debug",
-      "run": 8,
-      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
-      "duration": 99.17526078224182,
-      "success": true,
-      "error": null,
-      "transcript_file": "eval_transcripts/log_debug-run8.json",
-      "server_log_file": "eval_transcripts/server_logs/log_debug-run8-server.log"
-    },
-    {
-      "task": "log_debug",
-      "run": 3,
-      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
-      "duration": 90.7478928565979,
-      "success": true,
-      "error": null,
-      "transcript_file": "eval_transcripts/log_debug-run3.json",
-      "server_log_file": "eval_transcripts/server_logs/log_debug-run3-server.log"
-    },
-    {
-      "task": "log_debug",
+      "task": "blind-treasure-hunter-7x7",
       "run": 10,
-      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
-      "duration": 102.81400394439697,
+      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Perfect match with fixed ground truth maze\"\n  }\n}",
+      "duration": 85.38551568984985,
       "success": true,
       "error": null,
-      "transcript_file": "eval_transcripts/log_debug-run10.json",
-      "server_log_file": "eval_transcripts/server_logs/log_debug-run10-server.log"
+      "transcript_file": "eval_transcripts/blind-treasure-hunter-7x7-run10.json",
+      "server_log_file": "eval_transcripts/server_logs/blind-treasure-hunter-7x7-run10-server.log"
     },
     {
-      "task": "log_debug",
+      "task": "blind-treasure-hunter-7x7",
+      "run": 8,
+      "grade_result": "{\n  \"subscores\": {},\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"First mismatch at (row 1, col 1): expected 'S', got '#'\\nGround truth:\\n#######\\n#S..T.#\\n#.#.#.#\\n#...#.#\\n#T#...#\\n#..#..#\\n#######\\nCandidate map:\\n#######\\n##..T.#\\n#.#.#S#\\n#...#.#\\n#T#...#\\n#..#..#\\n#######\"\n  }\n}",
+      "duration": 193.97112321853638,
+      "success": true,
+      "error": null,
+      "transcript_file": "eval_transcripts/blind-treasure-hunter-7x7-run8.json",
+      "server_log_file": "eval_transcripts/server_logs/blind-treasure-hunter-7x7-run8-server.log"
+    },
+    {
+      "task": "blind-treasure-hunter-7x7",
+      "run": 3,
+      "grade_result": "{\n  \"subscores\": {},\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"First mismatch at (row 1, col 1): expected 'S', got '#'\\nGround truth:\\n#######\\n#S..T.#\\n#.#.#.#\\n#...#.#\\n#T#...#\\n#..#..#\\n#######\\nCandidate map:\\n#######\\n##..T.#\\n#.#.#.#\\n#...#.#\\n#T#...#\\n#..#.S#\\n#######\"\n  }\n}",
+      "duration": 130.8214681148529,
+      "success": true,
+      "error": null,
+      "transcript_file": "eval_transcripts/blind-treasure-hunter-7x7-run3.json",
+      "server_log_file": "eval_transcripts/server_logs/blind-treasure-hunter-7x7-run3-server.log"
+    },
+    {
+      "task": "blind-treasure-hunter-7x7",
       "run": 5,
-      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
-      "duration": 106.03670692443848,
+      "grade_result": "{\n  \"subscores\": {},\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"First mismatch at (row 1, col 1): expected 'S', got '#'\\nGround truth:\\n#######\\n#S..T.#\\n#.#.#.#\\n#...#.#\\n#T#...#\\n#..#..#\\n#######\\nCandidate map:\\n#######\\n##..T.#\\n#.#.#.#\\n#...#.#\\n#T#.S.#\\n#..#..#\\n#######\"\n  }\n}",
+      "duration": 135.48300528526306,
       "success": true,
       "error": null,
-      "transcript_file": "eval_transcripts/log_debug-run5.json",
-      "server_log_file": "eval_transcripts/server_logs/log_debug-run5-server.log"
+      "transcript_file": "eval_transcripts/blind-treasure-hunter-7x7-run5.json",
+      "server_log_file": "eval_transcripts/server_logs/blind-treasure-hunter-7x7-run5-server.log"
     },
     {
-      "task": "log_debug",
-      "run": 1,
-      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
-      "duration": 75.07683420181274,
-      "success": true,
-      "error": null,
-      "transcript_file": "eval_transcripts/log_debug-run1.json",
-      "server_log_file": "eval_transcripts/server_logs/log_debug-run1-server.log"
-    },
-    {
-      "task": "log_debug",
+      "task": "blind-treasure-hunter-7x7",
       "run": 7,
-      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
-      "duration": 92.66689085960388,
+      "grade_result": "{\n  \"subscores\": {},\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"First mismatch at (row 1, col 1): expected 'S', got '.'\\nGround truth:\\n#######\\n#S..T.#\\n#.#.#.#\\n#...#.#\\n#T#...#\\n#..#..#\\n#######\\nCandidate map:\\n#######\\n#..ST.#\\n#.#.#.#\\n#...#.#\\n#T#...#\\n#..#..#\\n#######\"\n  }\n}",
+      "duration": 131.15820384025574,
       "success": true,
       "error": null,
-      "transcript_file": "eval_transcripts/log_debug-run7.json",
-      "server_log_file": "eval_transcripts/server_logs/log_debug-run7-server.log"
+      "transcript_file": "eval_transcripts/blind-treasure-hunter-7x7-run7.json",
+      "server_log_file": "eval_transcripts/server_logs/blind-treasure-hunter-7x7-run7-server.log"
     },
     {
-      "task": "log_debug",
+      "task": "blind-treasure-hunter-7x7",
+      "run": 1,
+      "grade_result": "{\n  \"subscores\": {},\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"First mismatch at (row 1, col 1): expected 'S', got '.'\\nGround truth:\\n#######\\n#S..T.#\\n#.#.#.#\\n#...#.#\\n#T#...#\\n#..#..#\\n#######\\nCandidate map:\\n#######\\n#...T.#\\n#.#.#S#\\n#...#.#\\n#T#...#\\n#..#..#\\n#######\"\n  }\n}",
+      "duration": 134.99275183677673,
+      "success": true,
+      "error": null,
+      "transcript_file": "eval_transcripts/blind-treasure-hunter-7x7-run1.json",
+      "server_log_file": "eval_transcripts/server_logs/blind-treasure-hunter-7x7-run1-server.log"
+    },
+    {
+      "task": "blind-treasure-hunter-7x7",
       "run": 9,
-      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
-      "duration": 100.11403179168701,
+      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Perfect match with fixed ground truth maze\"\n  }\n}",
+      "duration": 95.40789318084717,
       "success": true,
       "error": null,
-      "transcript_file": "eval_transcripts/log_debug-run9.json",
-      "server_log_file": "eval_transcripts/server_logs/log_debug-run9-server.log"
+      "transcript_file": "eval_transcripts/blind-treasure-hunter-7x7-run9.json",
+      "server_log_file": "eval_transcripts/server_logs/blind-treasure-hunter-7x7-run9-server.log"
     },
     {
-      "task": "log_debug",
+      "task": "blind-treasure-hunter-7x7",
       "run": 2,
-      "grade_result": "{\n  \"subscores\": {\n    \"all_correct\": 1.0\n  },\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"Q1: Correct; Q2: Correct; Q3: Correct; Q4: Correct\"\n  }\n}",
-      "duration": 94.27912306785583,
+      "grade_result": "{\n  \"subscores\": {},\n  \"weights\": {\n    \"all_correct\": 1.0\n  },\n  \"metadata\": {\n    \"feedback\": \"First mismatch at (row 1, col 1): expected 'S', got '.'\\nGround truth:\\n#######\\n#S..T.#\\n#.#.#.#\\n#...#.#\\n#T#...#\\n#..#..#\\n#######\\nCandidate map:\\n#######\\n#...T.#\\n#.#.#.#\\n#...#.#\\n#T#...#\\n#.S#..#\\n#######\"\n  }\n}",
+      "duration": 913.214112997055,
       "success": true,
       "error": null,
-      "transcript_file": "eval_transcripts/log_debug-run2.json",
-      "server_log_file": "eval_transcripts/server_logs/log_debug-run2-server.log"
+      "transcript_file": "eval_transcripts/blind-treasure-hunter-7x7-run2.json",
+      "server_log_file": "eval_transcripts/server_logs/blind-treasure-hunter-7x7-run2-server.log"
     }
   ],
   "aggregated_results": {
-    "log_debug": {
-      "task": "log_debug",
-      "mean_score": 1.0,
-      "std_dev": 0.0,
+    "blind-treasure-hunter-7x7": {
+      "task": "blind-treasure-hunter-7x7",
+      "mean_score": 0.2,
+      "std_dev": 0.4216370213557839,
       "success_rate": 1.0,
       "total_runs": 10,
       "scores": [
+        0,
+        0,
         1.0,
+        0,
+        0,
+        0,
+        0,
+        0,
         1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0
+        0
       ]
     }
   }

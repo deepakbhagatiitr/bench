@@ -1,0 +1,8 @@
+{
+  "name": "blind-treasure-hunter-7x7",
+  "description": "Explore a 7x7 maze with hidden treasures and output a full map.",
+  "entrypoint": "bash /workdir/solution.sh",
+  "grader": "python /workdir/grader.py",
+  "timeout": 600,
+  "image": "apex_arena:base"
+}
